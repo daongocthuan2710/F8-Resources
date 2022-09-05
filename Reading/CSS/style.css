@@ -1,0 +1,58 @@
+/* Top-Right-Bottom-Left  */
+
+/* caniuse.com  Browser support tables for modern web technologies */
+
+.box{
+    /* fit the box without breaking the size */
+    box-sizing: border-box; 
+
+}
+
+/* About Background */
+.background{
+    background-image: url() , url();
+    background-image: linear-gradient(180deg,red,yellow);
+    background-size: 100px auto contain;
+    background-repeat: no-repeat repeat-x repeat-y;
+    background-origin: content-box;
+    background-position: bottom center;
+    /* shorthand */
+    background: url() no-repeat center / contain;
+}
+
+
+/* Tips and Tricks to margin center */
+div{
+    height: 100px;
+    text-align: center;
+/* Use flex */
+    display: flex;
+    align-items: center; /* width */
+    justify-content: center; /* height */
+/* Position */
+    position: relative;
+}
+
+h3{
+    line-height: 100px;
+/* Use flex */
+    /* Auto margin center */
+    margin: auto; 
+/* Position */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    /* shorthand */
+    transform: translate(-50% -50%);
+
+}
+
+/* Create a vertical solid in the center of height */
+h3::after{
+    position: absolute;
+    content: "";
+    border-left: 2px solid black;
+    height: 20px;
+    transform: translateY(-50%);
+}
