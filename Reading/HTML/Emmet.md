@@ -1,5 +1,5 @@
 <!-- Các tag cơ bản -->
-    div, p , h1, .....
+div, p , h1, ....., n -> <nav>
 Ngoài ra thì cũng có: bq cho <blockquote>, hdr cho <header>, ftr cho <footer>, btn cho <button>, và sect cho section.
 
 <!-- Classes -->
@@ -94,3 +94,14 @@ ul>.item —> <ul><li class="item"></li></ul>
 
 Class xác định trong table được hiểu là <tr> còn trong row thì là <td>.
 table>.row>.col —> <table><tr class="row"><td class="col"></td></tr></table>
+
+<!-- Lorem Ipsum -->
+“Lorem Ipsum” là đoạn text fake rất phổ biến được dùng để hiển thị random các giá trị dữ liệu trên trang. Chỉ cần gõ và lorem bấm Enter. Emmet sẽ tạo ra 30 từ ngẫu nhiên có thể dùng để dàn nội dung trong project.
+
+Bạn cũng có thể tự cho số lượng chữ theo nhu cầu.
+
+lorem10 sẽ cho bạn 10 từ random.
+
+<!-- Gộp chung lại -->
+Thử gộp chung những điều ở trên lại: 
+ul.my-list>lorem10.item-$*5

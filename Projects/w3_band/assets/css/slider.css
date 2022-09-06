@@ -1,0 +1,6 @@
+#slider
+{
+    min-height: 500px;
+    background-color: grey;
+    margin-top: var(--header-height);
+}

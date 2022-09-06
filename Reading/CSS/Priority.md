@@ -18,12 +18,12 @@ Priority?
 
 7. Universial selector and inherited?-
     /* CSS chung cho tất cả các thẻ được nhúng file css này */
-    * /* -0 */
+    * /* -0  tác dụng lên tất cả thẻ trong website */
     {
         color: red;
     }
 
-    html  /* -0 */
+    html  /* -0  ( tác dụng lên tất cả chữ trong website) */
     {  
         color: violet;
     }
