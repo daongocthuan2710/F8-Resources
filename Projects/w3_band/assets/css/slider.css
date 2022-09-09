@@ -1,6 +1,30 @@
 #slider
 {
-    min-height: 500px;
-    background-color: grey;
     margin-top: var(--header-height);
+    width: 100vw;
+    padding-top: 50%;
+    background: url("../imgs/sliders/slider1.jpg") top center / cover no-repeat;
+    position: relative;
+}
+
+#slider #text-content
+{
+    position: absolute;
+    text-align: center;
+    left:50%;
+    transform: translateX(-50%);
+    bottom: 4vh;
+    color: whitesmoke;
+}
+
+#slider .text-heading
+{
+    font-weight: 100;
+    font-size: 4vh;
+    margin-bottom:2vh;
+}
+
+#slider .text-description
+{
+    font-size: 2vh; 
 }
