@@ -1,0 +1,73 @@
+/* Reset CSS */
+:root
+{
+    --header-height: 7vh;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html 
+{
+    font-family: Helvetica, Arial,  sans-serif;
+    font-size: 2vh;
+}
+
+/* Common */
+.text-while
+{
+    color: white !important;
+}
+
+.clear
+{
+    clear: both;
+}
+
+.row
+{
+    margin-left: -3vh;
+    margin-right: -3vh;
+}
+
+.row::after
+{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.col
+{
+    padding: 0 3vh;
+    float: right;
+}
+
+.col-full
+{
+    width: 100%;
+}
+
+.col-half
+{
+    width: 50%;
+}
+
+.col-third
+{
+    width: calc(100%/3);
+}
+
+.mt-3vh
+{
+    margin-top: 3vh;
+}
+
+.mt-2vh
+{
+    margin-top: 2vh;
+}
+

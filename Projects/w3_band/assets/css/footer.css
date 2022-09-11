@@ -1,0 +1,26 @@
+#footer
+{
+    text-align: center;
+}
+
+.social-list
+{
+    margin-top: 3vh;
+}
+
+.social-list i[class^="fa"]
+{
+    margin-right: 0.5vh;
+    font-size: 2vh;
+}
+
+.social-list i[class^="fa"]:hover
+{
+    opacity: 0.5;
+}
+
+.copyright
+{
+    font-size: 2vh;
+    margin-bottom: 5vh;
+}

@@ -1,4 +1,214 @@
 #content
 {
-    height: 500px;
+    height: auto;
+}
+
+/* THE BAND */
+#content .content-section
+{
+    width: 60%;
+    margin: auto;
+    padding-top: 15vh;
+    height: auto;
+}
+
+#content .content-heading
+{
+    font-size: 4vh;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1vh;
+}
+
+#content .section-sub-heading
+{
+    font-size: 2vh;
+    font-style: italic;
+    font-weight: lighter;
+    text-align: center;
+    padding-top: 2vh;
+    opacity: 0.8;
+
+}
+
+#content .about-text
+{
+    text-align: justify;
+    padding-top: 2vh;
+    line-height: 3vh;
+}
+
+#content .members-list
+{
+    margin-top: 4vh;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+#content .member-item
+{
+    display: inline-block;
+}
+
+#content .member-name
+{
+    font-size: 2vh;
+    text-align: center;
+}
+
+#content .member-item img
+{
+    margin-top: 3vh;
+    border-radius: 15px;
+    width: 30vh;
+    height: 40vh;
+}
+
+/* TOUR DATES  */
+.tour-section
+{
+    background-color: black;
+    padding-bottom: 5vh;
+}
+
+.ticket-list
+{
+    background-color: #fff;
+    margin-top: 3vh;
+}
+
+.ticket-list li 
+{
+    font-size: 2vh;
+    padding: 1vh;
+    border-bottom: 1px solid rgb(114, 112, 112);
+    margin-left: 1vh;
+    list-style-type: none;
+}
+
+.ticket-list .sold-out
+{
+    color: blanchedalmond;
+    background-color: rgb(209, 18, 18);
+    padding: 0.5vh;
+    margin-left: 3vh;
+}
+
+.ticket-list .quantity
+{
+    float: right;
+    width: 3vh;
+    height: 3vh;
+    line-height: 3vh;
+    border-radius: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.place-list
+{
+    margin-top: 3vh;
+    margin-bottom: 5vh;
+}
+
+.place-list img
+{
+    width: 100%;
+    height: 30vh;
+    display: block;
+    object-fit: cover;
+}
+
+.place-list .place-body
+{
+    background-color: #fff;
+    padding: 2vh;
+    font-size: 2vh;
+
+}
+
+.place-list .place-heading
+{
+    font-weight: 600;
+}
+
+.place-list .place-time
+{
+    margin-top: 2vh;
+    opacity: 0.7;
+}
+
+.place-list .place-desc
+{
+    margin-top: 2vh;
+    line-height: 3vh;
+}
+
+.place-list .place-buy-btn
+{
+    margin-top: 2vh;
+    text-decoration: none;
+    background-color: black;
+    padding: 1vh;
+    color: white;
+    display: inline-block;
+    border: 0;
+    font-size: 2vh;
+    cursor: pointer;
+}
+
+.place-list .place-buy-btn:hover
+{
+    opacity: 0.5;
+}
+
+/* CONTACT */
+.contact-content
+{
+    margin-top: 3vh;
+}
+
+.contact-info
+{
+    font-size: 2vh;
+    float: left;
+}
+
+.contact-info i[class^="fa"]
+{
+    margin-bottom: 2vh;
+    margin-right: 2vh;
+}
+
+.form-control
+{
+    padding: 1vh;
+    border: 1px solid rgb(126, 122, 122);
+    width: 100%;
+    font-size: 2vh;
+}
+
+.form-submit-btn
+{
+    border: none;
+    background-color: black;
+    padding: 1vh;
+    font-size: 2vh;
+    color: white;
+    float:right;
+}
+
+/* MAP */
+.map-section
+{
+    margin-top: 5vh;
+}
+
+.map-section img
+{
+    width: 100%;
+    height: 75vh;
+    object-fit: cover;
 }
